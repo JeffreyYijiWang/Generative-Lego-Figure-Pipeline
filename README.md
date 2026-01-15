@@ -1,6 +1,7 @@
 # Generative Lego Figure Pipeline
 A Blender to SVG Pipeline for Lego Figures in the Official Lego Database
-
+![Plain Image](Images/IMG_2476.jpg)
+![Plain Image](Images/IMG_2456.jpg)
 
 My investigation was a continuation of a TSNE(t-distributed stochastic neighbor embedding) distribution of the brickable dataset that I made in Generative AI. I was fascinated by the seemingly mundane modular lego pieces that created larger patterns when a larger latent space of charactering for lego was plotted as seen here. https://github.com/JeffreyYijiWang/lego_typology_video_website. Playing with legos I wanted to be able to push the standard collection of lego to include irregular shapes, conglomerations, and non-geometric shapes. Similar to how some architecture uses a repetition of shapes, I was wondering how I could represent repeating patterns of Legos and new orientations to turn a scientific tool like TSNE to be more of an artistic expression. 
 
