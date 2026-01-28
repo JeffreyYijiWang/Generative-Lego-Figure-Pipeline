@@ -29,7 +29,7 @@ I tried to use goggle api with mediapipe to do image classification, but I decid
 I first tried to used a self-ordering map which I found varying success with the organization of the legos.
 
 ![Plain Image](Images/tsne_grids.gif)
-I then used previous tsne_grids [![Alt text]("t-SNE Mosaic")](https://github.com/golanlevin/gen-ai/blob/main/daily_notes/0225.md) to generate a plot for 1000 legos meshes. 
+I then used previous tsne_grids [t-SNE Mosaic](https://github.com/golanlevin/gen-ai/blob/main/daily_notes/0225.md) to generate a plot for 1000 legos meshes. 
 
 ### Interactive Querying 
 ![Plain Image](Images/querying_grid.gif)
