@@ -20,6 +20,20 @@ Discoveries that were found is that I loved when I render legos that were not pe
 Utilizing the sharp edge contours and the finer details form the edge detection, I used a thicker pen and vpype line simplify to reduce noise 
 ![Plain Image](Images/Combined_image.png)
 
+### Catagorization of Images
+![Plain Image](Images/output.png)
+I tried to use goggle api with mediapipe to do image classification, but I decided to take the tokens and tags from the LegoCAD library. 
+
+### Self-Ordering-Maps vs TSNE
+![Plain Image](Images/zooming%20into%20grid.gif)
+I first tried to used a self-ordering map which I found varying success with the organization of the legos.
+
+![Plain Image](Images/tsne_grids.gif)
+I then used previous tsne_grids [![Alt text]("t-SNE Mosaic")](https://github.com/golanlevin/gen-ai/blob/main/daily_notes/0225.md) to generate a plot for 1000 legos meshes. 
+
+### Interactive Querying 
+![Plain Image](Images/querying_grid.gif)
+I then sort through the lego library for potential tags and phrases to be associated with the different lego meshs. 
 ## Pipeline:
 1. Use a lego library to set a dictionary that I can easily query Id informations about lego bricks efficiently. I used MLCad.in a open source library for the minifigure generator by Holly-Wood.it > MLCad > Newest MLCad.ini file. This process would be similar if I want to expand the pipeline to all the lego bricks. 
 2. Use Generate_Minifig.py script that uses a template sections( head, neck, body, left arm, etc) for a lego figure, and randomly select lego ID’s from each section in the dictionary based on percentages I tweaked and a seed.I currently don’t have the color data associated with the minifigures so I assign contrasting colors to each brick, and apply their local rotations effects and world positions.
