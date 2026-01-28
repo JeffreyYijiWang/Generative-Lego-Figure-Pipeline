@@ -34,6 +34,11 @@ I then used previous tsne_grids [![Alt text]("t-SNE Mosaic")](https://github.com
 ### Interactive Querying 
 ![Plain Image](Images/querying_grid.gif)
 I then sort through the lego library for potential tags and phrases to be associated with the different lego meshs. 
+![Plain Image](Images/embossed.png)
+## Challenges 
+I still need to migrate and host the server on the web instead of being hosted locally. I want to work towards predicting the movement of the lego figure. 
+
+
 ## Pipeline:
 1. Use a lego library to set a dictionary that I can easily query Id informations about lego bricks efficiently. I used MLCad.in a open source library for the minifigure generator by Holly-Wood.it > MLCad > Newest MLCad.ini file. This process would be similar if I want to expand the pipeline to all the lego bricks. 
 2. Use Generate_Minifig.py script that uses a template sections( head, neck, body, left arm, etc) for a lego figure, and randomly select lego ID’s from each section in the dictionary based on percentages I tweaked and a seed.I currently don’t have the color data associated with the minifigures so I assign contrasting colors to each brick, and apply their local rotations effects and world positions.
